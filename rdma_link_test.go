@@ -3,10 +3,11 @@
 package netlink
 
 import (
-	"github.com/WebP2P/netns"
 	"io/ioutil"
 	"strings"
 	"testing"
+
+	"github.com/vishvananda/netns"
 )
 
 func setupRdmaKModule(t *testing.T, name string) {

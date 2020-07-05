@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/WebP2P/netlink/nl"
-	"github.com/WebP2P/netns"
+	"github.com/vishvananda/netns"
 	"golang.org/x/sys/unix"
 )
 

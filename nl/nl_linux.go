@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/WebP2P/netns"
+	"github.com/vishvananda/netns"
 	"golang.org/x/sys/unix"
 )
 

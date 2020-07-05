@@ -3,7 +3,7 @@ DIRS := \
 	nl
 
 DEPS = \
-	github.com/WebP2P/netns \
+	github.com/vishvananda/netns \
 	golang.org/x/sys/unix
 
 uniq = $(if $1,$(firstword $1) $(call uniq,$(filter-out $(firstword $1),$1)))

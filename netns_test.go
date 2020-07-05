@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/WebP2P/netns"
+	"github.com/vishvananda/netns"
 )
 
 // TestNetNsIdByFd tests setting and getting the network namespace ID

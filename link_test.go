@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vishvananda/netlink/nl"
-	"github.com/vishvananda/netns"
+	"github.com/WebP2P/netlink/nl"
+	"github.com/WebP2P/netns"
 	"golang.org/x/sys/unix"
 )
 

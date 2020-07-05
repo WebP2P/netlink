@@ -6,7 +6,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/vishvananda/netlink/nl"
+	"github.com/WebP2P/netlink/nl"
 	"golang.org/x/sys/unix"
 )
 

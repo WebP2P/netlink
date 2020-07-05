@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vishvananda/netns"
+	"github.com/WebP2P/netns"
 	"golang.org/x/sys/unix"
 )
 
